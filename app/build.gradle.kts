@@ -53,6 +53,8 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
@@ -74,7 +76,7 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")
-    implementation ("androidx.compose.material:material:1.0.5") // Проверьте версию
+    implementation ("androidx.compose.material:material:1.0.5")
     implementation ("androidx.compose.ui:ui:1.0.5")
     implementation ("androidx.compose.material3:material3:1.0.0")
 }
